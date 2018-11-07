@@ -2,8 +2,6 @@
 using ProjectManager.DL;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
@@ -13,7 +11,6 @@ namespace ProjectManager.API.Controllers
     public class UserController : ApiController
     {
         private IProjectManagerContext _context;
-
         public UserController()
         {
             _context = new ProjectManagerContext();
@@ -70,7 +67,6 @@ namespace ProjectManager.API.Controllers
         public IHttpActionResult AddUser(Entities.User user)
         {
             UserBL userBl = new UserBL(_context);
-            
             try
             {
                 userBl.AddUser(user);
@@ -91,7 +87,6 @@ namespace ProjectManager.API.Controllers
         public IHttpActionResult UpdateUser(Entities.User user)
         {
             UserBL userBl = new UserBL(_context);
-
             try
             {
                 userBl.UpdateUser(user);
@@ -112,7 +107,6 @@ namespace ProjectManager.API.Controllers
         public IHttpActionResult DeleteUser(int id)
         {
             UserBL userBl = new UserBL(_context);
-
             try
             {
                 userBl.DeleteUser(id);

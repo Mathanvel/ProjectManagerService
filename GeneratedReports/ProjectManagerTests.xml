@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="217" visitedSequencePoints="169" numBranchPoints="27" visitedBranchPoints="22" sequenceCoverage="77.88" branchCoverage="81.48" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="20" numMethods="23" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="FF-41-88-6A-C0-F3-85-4B-F2-BA-9E-EF-41-EE-D4-07-50-7D-EF-0B">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:13:54.9543308Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="42-5D-0E-14-9A-00-93-21-57-8C-FC-8C-B0-3D-F9-C7-AF-CD-A3-02">
+      <ModulePath>C:\Final\Middleware\ProjectManager\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit3-console.exe</ModulePath>
+      <ModuleTime>2018-09-05T14:48:28Z</ModuleTime>
+      <ModuleName>nunit3-console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="BA-D5-C6-DC-0C-59-DA-6B-C8-40-22-29-40-86-10-C6-40-6D-57-E5">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.7427109Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0A-47-64-32-4B-83-DF-99-42-5A-C7-DE-DA-21-E5-6C-A1-90-50-AC">
+      <ModulePath>C:\Final\Middleware\ProjectManager\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit.engine.api.dll</ModulePath>
+      <ModuleTime>2018-09-05T14:48:28Z</ModuleTime>
+      <ModuleName>nunit.engine.api</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D5-00-67-52-C5-AF-05-06-2D-35-DF-4F-C4-22-51-88-35-4A-CD-00">
+      <ModulePath>C:\Final\Middleware\ProjectManager\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit.engine.dll</ModulePath>
+      <ModuleTime>2018-09-05T14:48:28Z</ModuleTime>
+      <ModuleName>nunit.engine</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F2-26-5B-FA-55-E9-5B-BC-DD-3A-32-56-2C-38-71-11-1A-8E-6D-32">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0290261Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="5D-11-B3-06-06-08-5F-E2-66-89-AE-C6-ED-96-26-D1-36-92-44-EF">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2018-07-11T01:18:57.946378Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B5-2C-52-19-7F-DE-8E-1A-EE-7C-F3-4D-31-FC-77-A2-C4-49-EE-AB">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Remoting\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Remoting.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:17.0134Z</ModuleTime>
+      <ModuleName>System.Runtime.Remoting</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-F4-1C-14-5D-7A-74-B3-03-8B-1D-2A-59-DC-B6-BE-1D-C8-EF-54">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:16.9508953Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7C-26-06-1C-0A-29-02-E5-32-A6-26-CA-D2-F5-06-AA-A1-3B-9C-8F">
+      <ModulePath>C:\Final\Middleware\ProjectManager\packages\NUnit.ConsoleRunner.3.9.0\tools\Mono.Cecil.dll</ModulePath>
+      <ModuleTime>2018-09-05T14:48:28Z</ModuleTime>
+      <ModuleName>Mono.Cecil</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="7B-9A-AB-FE-2F-2E-1F-20-5A-36-8B-C0-38-08-BB-92-E3-B7-A8-18">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2018-08-14T02:15:16.8520929Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="D0-28-87-1E-9F-96-03-5C-DD-6C-EE-2A-08-04-43-0E-24-28-FE-11">
+      <ModulePath>C:\Final\Middleware\ProjectManager\packages\NUnit.ConsoleRunner.3.9.0\tools\nunit-agent.exe</ModulePath>
+      <ModuleTime>2018-09-05T14:48:28Z</ModuleTime>
+      <ModuleName>nunit-agent</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EE-92-34-AE-A6-A6-A8-2E-8A-34-A1-E4-20-3D-2A-23-C5-9D-D8-D2">
+      <ModulePath>C:\Final\Middleware\ProjectManager\ProjectManager.API.Tests\bin\Debug\nunit.framework.dll</ModulePath>
+      <ModuleTime>2018-10-06T11:22:56Z</ModuleTime>
+      <ModuleName>nunit.framework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2A-16-2F-06-C9-DC-86-BD-0F-16-FA-5C-31-13-F0-4F-21-BD-0C-E1">
+      <ModulePath>C:\Final\Middleware\ProjectManager\ProjectManager.API.Tests\bin\Debug\ProjectManager.API.Tests.dll</ModulePath>
+      <ModuleTime>2018-11-07T05:41:41.7420438Z</ModuleTime>
+      <ModuleName>ProjectManager.API.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="12-3F-E3-10-D1-D0-35-93-2B-65-FA-C5-00-62-09-C4-DC-D6-92-BF">
+      <ModulePath>C:\Final\Middleware\ProjectManager\ProjectManager.API.Tests\bin\Debug\EntityFramework.dll</ModulePath>
+      <ModuleTime>2017-10-23T07:45:18Z</ModuleTime>
+      <ModuleName>EntityFramework</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C0-62-97-82-54-7E-97-11-7B-CF-42-95-64-52-3B-4E-C0-FB-D4-D6">
+      <ModulePath>C:\Final\Middleware\ProjectManager\ProjectManager.API.Tests\bin\Debug\ProjectManager.Entities.dll</ModulePath>
+      <ModuleTime>2018-11-02T17:02:21.3485814Z</ModuleTime>
+      <ModuleName>ProjectManager.Entities</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="71-5A-78-C1-0B-50-04-BB-95-0C-A9-2D-03-E1-03-4F-76-2B-82-51">
+      <ModulePath>C:\Final\Middleware\ProjectManager\ProjectManager.API.Tests\bin\Debug\ProjectManager.DL.dll</ModulePath>
+      <ModuleTime>2018-11-02T17:02:24.3475842Z</ModuleTime>
+      <ModuleName>ProjectManager.DL</ModuleName>
+      <Classes />
+    </Module>
+    <Module hash="87-AB-97-61-AE-1D-C3-62-85-C8-CB-7A-AF-DE-D5-69-B9-11-3F-61">
+      <Summary numSequencePoints="217" visitedSequencePoints="169" numBranchPoints="27" visitedBranchPoints="22" sequenceCoverage="77.88" branchCoverage="81.48" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" visitedClasses="3" numClasses="3" visitedMethods="20" numMethods="23" />
+      <ModulePath>C:\Final\Middleware\ProjectManager\ProjectManager.API.Tests\bin\Debug\ProjectManager.API.dll</ModulePath>
+      <ModuleTime>2018-11-07T05:30:51.192563Z</ModuleTime>
+      <ModuleName>ProjectManager.API</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Final\Middleware\ProjectManager\ProjectManager.API\Controllers\ProjectController.cs" />
+        <File uid="2" fullPath="C:\Final\Middleware\ProjectManager\ProjectManager.API\Controllers\TaskController.cs" />
+        <File uid="3" fullPath="C:\Final\Middleware\ProjectManager\ProjectManager.API\Controllers\UserController.cs" />
+      </Files>
+      <Classes>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;Module&gt;</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType0`1</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType1`8</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType2`6</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType3`8</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType4`2</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>&lt;&gt;f__AnonymousType5`9</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>ProjectManager.API.WebApiConfig</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>ProjectManager.API.WebApiApplication</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="77" visitedSequencePoints="58" numBranchPoints="11" visitedBranchPoints="8" sequenceCoverage="75.32" branchCoverage="72.73" maxCyclomaticComplexity="5" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="7" />
+          <FullName>ProjectManager.API.Controllers.ProjectController</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663358</MetadataToken>
+              <Name>System.Void ProjectManager.API.Controllers.ProjectController::.ctor()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="1" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="35" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="2" ordinal="1" offset="7" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="3" ordinal="2" offset="8" sl="20" sc="13" el="20" ec="52" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="4" ordinal="3" offset="19" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="1" ordinal="0" offset="0" sl="18" sc="9" el="18" ec="35" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663359</MetadataToken>
+              <Name>System.Void ProjectManager.API.Controllers.ProjectController::.ctor(ProjectManager.DL.IProjectManagerContext)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="5" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="65" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="6" ordinal="1" offset="7" sl="23" sc="9" el="23" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="7" ordinal="2" offset="8" sl="24" sc="13" el="24" ec="32" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="5" uspid="8" ordinal="3" offset="15" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="5" ordinal="0" offset="0" sl="22" sc="9" el="22" ec="65" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="80" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="12" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="80" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663360</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.ProjectController::GetAllProjects()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="9" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="10" ordinal="1" offset="1" sl="31" sc="13" el="31" ec="59" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="11" ordinal="2" offset="13" sl="32" sc="13" el="32" ec="76" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="12" ordinal="3" offset="19" sl="34" sc="13" el="34" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="13" ordinal="4" offset="20" sl="35" sc="17" el="35" ec="55" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="14" ordinal="5" offset="27" sl="36" sc="13" el="36" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="15" ordinal="6" offset="30" sl="37" sc="13" el="37" ec="32" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="16" ordinal="7" offset="31" sl="38" sc="13" el="38" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="17" ordinal="8" offset="32" sl="39" sc="17" el="39" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="18" ordinal="9" offset="45" sl="42" sc="13" el="42" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="19" ordinal="10" offset="46" sl="43" sc="17" el="43" ec="34" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="20" ordinal="11" offset="48" sl="44" sc="13" el="44" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="21" ordinal="12" offset="50" sl="46" sc="13" el="57" ec="36" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="22" ordinal="13" offset="93" sl="58" sc="13" el="58" ec="29" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="23" ordinal="14" offset="104" sl="59" sc="9" el="59" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="9" ordinal="0" offset="0" sl="30" sc="9" el="30" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="5" nPathComplexity="4" sequenceCoverage="80" branchCoverage="60" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="12" numBranchPoints="5" visitedBranchPoints="3" sequenceCoverage="80" branchCoverage="60" maxCyclomaticComplexity="5" minCyclomaticComplexity="5" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663361</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.ProjectController::GetProjectById(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="26" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="27" ordinal="1" offset="1" sl="65" sc="13" el="65" ec="59" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="28" ordinal="2" offset="13" sl="66" sc="13" el="66" ec="63" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="29" ordinal="3" offset="19" sl="68" sc="13" el="68" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="30" ordinal="4" offset="20" sl="69" sc="17" el="69" ec="56" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="31" ordinal="5" offset="28" sl="70" sc="13" el="70" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="32" ordinal="6" offset="31" sl="71" sc="13" el="71" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="33" ordinal="7" offset="32" sl="72" sc="13" el="72" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="34" ordinal="8" offset="33" sl="73" sc="17" el="73" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="35" ordinal="9" offset="49" sl="76" sc="13" el="76" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="36" ordinal="10" offset="50" sl="77" sc="17" el="77" ec="34" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="37" ordinal="11" offset="52" sl="78" sc="13" el="78" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="38" ordinal="12" offset="54" sl="79" sc="13" el="87" ec="15" bec="4" bev="2" fileid="1" />
+                <SequencePoint vc="1" uspid="39" ordinal="13" offset="166" sl="88" sc="13" el="88" ec="38" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="40" ordinal="14" offset="177" sl="89" sc="9" el="89" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="0" uspid="41" ordinal="0" offset="88" sl="79" path="0" offsetend="90" fileid="1" />
+                <BranchPoint vc="1" uspid="42" ordinal="1" offset="88" sl="79" path="1" offsetend="94" fileid="1" />
+                <BranchPoint vc="0" uspid="43" ordinal="2" offset="129" sl="79" path="0" offsetend="131" fileid="1" />
+                <BranchPoint vc="1" uspid="44" ordinal="3" offset="129" sl="79" path="1" offsetend="135" fileid="1" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="26" ordinal="0" offset="0" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="76.92" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="13" visitedSequencePoints="10" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="76.92" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663362</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.ProjectController::AddProject(ProjectManager.Entities.Project)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="45" ordinal="0" offset="0" sl="94" sc="9" el="94" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="46" ordinal="1" offset="1" sl="95" sc="13" el="95" ec="59" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="47" ordinal="2" offset="13" sl="98" sc="13" el="98" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="48" ordinal="3" offset="14" sl="99" sc="17" el="99" ec="47" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="49" ordinal="4" offset="22" sl="100" sc="13" el="100" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="50" ordinal="5" offset="25" sl="101" sc="13" el="101" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="51" ordinal="6" offset="26" sl="102" sc="13" el="102" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="52" ordinal="7" offset="27" sl="103" sc="17" el="103" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="53" ordinal="8" offset="39" sl="106" sc="13" el="106" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="54" ordinal="9" offset="40" sl="107" sc="17" el="107" ec="34" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="55" ordinal="10" offset="42" sl="108" sc="13" el="108" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="56" ordinal="11" offset="44" sl="109" sc="13" el="109" ec="25" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="57" ordinal="12" offset="53" sl="110" sc="9" el="110" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="45" ordinal="0" offset="0" sl="94" sc="9" el="94" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="76.92" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="13" visitedSequencePoints="10" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="76.92" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663363</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.ProjectController::UpdateProject(ProjectManager.Entities.Project)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="58" ordinal="0" offset="0" sl="115" sc="9" el="115" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="59" ordinal="1" offset="1" sl="116" sc="13" el="116" ec="59" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="60" ordinal="2" offset="13" sl="119" sc="13" el="119" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="61" ordinal="3" offset="14" sl="120" sc="17" el="120" ec="50" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="62" ordinal="4" offset="22" sl="121" sc="13" el="121" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="63" ordinal="5" offset="25" sl="122" sc="13" el="122" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="64" ordinal="6" offset="26" sl="123" sc="13" el="123" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="65" ordinal="7" offset="27" sl="124" sc="17" el="124" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="66" ordinal="8" offset="39" sl="127" sc="13" el="127" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="67" ordinal="9" offset="40" sl="128" sc="17" el="128" ec="34" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="68" ordinal="10" offset="42" sl="129" sc="13" el="129" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="69" ordinal="11" offset="44" sl="130" sc="13" el="130" ec="25" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="70" ordinal="12" offset="53" sl="131" sc="9" el="131" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="58" ordinal="0" offset="0" sl="115" sc="9" el="115" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="76.92" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="13" visitedSequencePoints="10" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="76.92" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663364</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.ProjectController::DeleteProject(System.Int32)</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="71" ordinal="0" offset="0" sl="136" sc="9" el="136" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="72" ordinal="1" offset="1" sl="137" sc="13" el="137" ec="59" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="73" ordinal="2" offset="13" sl="140" sc="13" el="140" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="74" ordinal="3" offset="14" sl="141" sc="17" el="141" ec="45" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="75" ordinal="4" offset="22" sl="142" sc="13" el="142" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="76" ordinal="5" offset="25" sl="143" sc="13" el="143" ec="33" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="77" ordinal="6" offset="26" sl="144" sc="13" el="144" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="78" ordinal="7" offset="27" sl="145" sc="17" el="145" ec="48" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="79" ordinal="8" offset="39" sl="148" sc="13" el="148" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="80" ordinal="9" offset="40" sl="149" sc="17" el="149" ec="34" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="81" ordinal="10" offset="42" sl="150" sc="13" el="150" ec="14" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="82" ordinal="11" offset="44" sl="151" sc="13" el="151" ec="25" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="1" uspid="83" ordinal="12" offset="53" sl="152" sc="9" el="152" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="71" ordinal="0" offset="0" sl="136" sc="9" el="136" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>ProjectManager.API.Controllers.ProjectController/&lt;&gt;c</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="65" visitedSequencePoints="55" numBranchPoints="9" visitedBranchPoints="8" sequenceCoverage="84.62" branchCoverage="88.89" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="8" numMethods="9" />
+          <FullName>ProjectManager.API.Controllers.TaskController</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663365</MetadataToken>
+              <Name>System.Void ProjectManager.API.Controllers.TaskController::.ctor()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="84" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="32" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="85" ordinal="1" offset="7" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="86" ordinal="2" offset="8" sl="21" sc="13" el="21" ec="52" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="87" ordinal="3" offset="19" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="84" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="32" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663366</MetadataToken>
+              <Name>System.Void ProjectManager.API.Controllers.TaskController::.ctor(ProjectManager.DL.IProjectManagerContext)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="7" uspid="88" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="62" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="89" ordinal="1" offset="7" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="90" ordinal="2" offset="8" sl="25" sc="13" el="25" ec="32" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="7" uspid="91" ordinal="3" offset="15" sl="26" sc="9" el="26" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="7" uspid="88" ordinal="0" offset="0" sl="23" sc="9" el="23" ec="62" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="80" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="12" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="80" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663367</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.TaskController::GetAllTasks()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="92" ordinal="0" offset="6" sl="31" sc="9" el="31" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="93" ordinal="1" offset="7" sl="32" sc="13" el="32" ec="47" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="94" ordinal="2" offset="19" sl="33" sc="13" el="33" ec="52" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="95" ordinal="3" offset="30" sl="35" sc="13" el="35" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="96" ordinal="4" offset="31" sl="36" sc="17" el="36" ec="49" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="97" ordinal="5" offset="43" sl="37" sc="13" el="37" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="98" ordinal="6" offset="46" sl="38" sc="13" el="38" ec="33" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="99" ordinal="7" offset="47" sl="39" sc="13" el="39" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="100" ordinal="8" offset="48" sl="40" sc="17" el="40" ec="48" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="101" ordinal="9" offset="61" sl="43" sc="13" el="43" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="102" ordinal="10" offset="62" sl="44" sc="17" el="44" ec="31" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="103" ordinal="11" offset="64" sl="45" sc="13" el="45" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="104" ordinal="12" offset="66" sl="47" sc="13" el="61" ec="37" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="105" ordinal="13" offset="126" sl="63" sc="13" el="63" ec="30" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="106" ordinal="14" offset="137" sl="64" sc="9" el="64" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="109" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="80" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="15" visitedSequencePoints="12" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="80" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663368</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.TaskController::GetParentTasks()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="110" ordinal="0" offset="0" sl="69" sc="9" el="69" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="111" ordinal="1" offset="1" sl="70" sc="13" el="70" ec="47" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="112" ordinal="2" offset="13" sl="71" sc="13" el="71" ec="52" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="113" ordinal="3" offset="19" sl="73" sc="13" el="73" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="114" ordinal="4" offset="20" sl="74" sc="17" el="74" ec="52" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="115" ordinal="5" offset="27" sl="75" sc="13" el="75" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="116" ordinal="6" offset="30" sl="76" sc="13" el="76" ec="33" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="117" ordinal="7" offset="31" sl="77" sc="13" el="77" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="118" ordinal="8" offset="32" sl="78" sc="17" el="78" ec="48" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="119" ordinal="9" offset="45" sl="81" sc="13" el="81" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="120" ordinal="10" offset="46" sl="82" sc="17" el="82" ec="31" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="121" ordinal="11" offset="48" sl="83" sc="13" el="83" ec="14" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="122" ordinal="12" offset="50" sl="85" sc="13" el="90" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="123" ordinal="13" offset="93" sl="92" sc="13" el="92" ec="30" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="124" ordinal="14" offset="104" sl="93" sc="9" el="93" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="110" ordinal="0" offset="0" sl="69" sc="9" el="69" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663369</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.TaskController::GetTaskById(System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="127" ordinal="0" offset="0" sl="98" sc="9" el="98" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="128" ordinal="1" offset="1" sl="99" sc="13" el="99" ec="47" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="129" ordinal="2" offset="13" sl="100" sc="13" el="100" ec="47" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="130" ordinal="3" offset="21" sl="101" sc="13" el="112" ec="15" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="131" ordinal="4" offset="107" sl="113" sc="13" el="113" ec="35" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="132" ordinal="5" offset="118" sl="114" sc="9" el="114" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="127" ordinal="0" offset="0" sl="98" sc="9" el="98" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663370</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.TaskController::GetTaskByProjectId(System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="133" ordinal="0" offset="6" sl="119" sc="9" el="119" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="134" ordinal="1" offset="7" sl="120" sc="13" el="120" ec="47" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="135" ordinal="2" offset="19" sl="121" sc="13" el="121" ec="61" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="136" ordinal="3" offset="32" sl="122" sc="13" el="136" ec="38" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="137" ordinal="4" offset="92" sl="137" sc="13" el="137" ec="30" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="138" ordinal="5" offset="102" sl="138" sc="9" el="138" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="141" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663371</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.TaskController::AddTask(ProjectManager.Entities.Task)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="142" ordinal="0" offset="0" sl="143" sc="9" el="143" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="143" ordinal="1" offset="1" sl="144" sc="13" el="144" ec="47" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="144" ordinal="2" offset="13" sl="145" sc="13" el="145" ec="34" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="145" ordinal="3" offset="21" sl="146" sc="13" el="146" ec="25" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="146" ordinal="4" offset="30" sl="147" sc="9" el="147" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="142" ordinal="0" offset="0" sl="143" sc="9" el="143" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663372</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.TaskController::UpdateTask(ProjectManager.Entities.Task)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="147" ordinal="0" offset="0" sl="152" sc="9" el="152" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="148" ordinal="1" offset="1" sl="153" sc="13" el="153" ec="47" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="149" ordinal="2" offset="13" sl="154" sc="13" el="154" ec="37" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="150" ordinal="3" offset="21" sl="155" sc="13" el="155" ec="25" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="151" ordinal="4" offset="30" sl="156" sc="9" el="156" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="147" ordinal="0" offset="0" sl="152" sc="9" el="152" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="5" visitedSequencePoints="5" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663373</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.TaskController::EndTask(System.Int32)</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="152" ordinal="0" offset="0" sl="161" sc="9" el="161" ec="10" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="153" ordinal="1" offset="1" sl="162" sc="13" el="162" ec="47" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="154" ordinal="2" offset="13" sl="163" sc="13" el="163" ec="36" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="155" ordinal="3" offset="21" sl="164" sc="13" el="164" ec="25" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="1" uspid="156" ordinal="4" offset="30" sl="165" sc="9" el="165" ec="10" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="152" ordinal="0" offset="0" sl="161" sc="9" el="161" ec="10" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>ProjectManager.API.Controllers.TaskController/&lt;&gt;c__DisplayClass3_0</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>ProjectManager.API.Controllers.TaskController/&lt;&gt;c__DisplayClass3_1</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>ProjectManager.API.Controllers.TaskController/&lt;&gt;c</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>ProjectManager.API.Controllers.TaskController/&lt;&gt;c__DisplayClass6_0</FullName>
+          <Methods />
+        </Class>
+        <Class skippedDueTo="Filter">
+          <FullName>ProjectManager.API.Controllers.TaskController/&lt;&gt;c__DisplayClass6_1</FullName>
+          <Methods />
+        </Class>
+        <Class>
+          <Summary numSequencePoints="75" visitedSequencePoints="56" numBranchPoints="7" visitedBranchPoints="6" sequenceCoverage="74.67" branchCoverage="85.71" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="7" />
+          <FullName>ProjectManager.API.Controllers.UserController</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663374</MetadataToken>
+              <Name>System.Void ProjectManager.API.Controllers.UserController::.ctor()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="157" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="32" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="158" ordinal="1" offset="7" sl="18" sc="9" el="18" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="159" ordinal="2" offset="8" sl="19" sc="13" el="19" ec="52" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="160" ordinal="3" offset="19" sl="20" sc="9" el="20" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="157" ordinal="0" offset="0" sl="17" sc="9" el="17" ec="32" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663375</MetadataToken>
+              <Name>System.Void ProjectManager.API.Controllers.UserController::.ctor(ProjectManager.DL.IProjectManagerContext)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="5" uspid="161" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="62" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="5" uspid="162" ordinal="1" offset="7" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="5" uspid="163" ordinal="2" offset="8" sl="23" sc="13" el="23" ec="32" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="5" uspid="164" ordinal="3" offset="15" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="5" uspid="161" ordinal="0" offset="0" sl="21" sc="9" el="21" ec="62" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="78.57" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="14" visitedSequencePoints="11" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="78.57" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663376</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.UserController::GetAllUsers()</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="165" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="166" ordinal="1" offset="1" sl="30" sc="13" el="30" ec="50" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="167" ordinal="2" offset="13" sl="31" sc="13" el="31" ec="67" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="168" ordinal="3" offset="19" sl="33" sc="13" el="33" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="169" ordinal="4" offset="20" sl="34" sc="17" el="34" ec="46" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="170" ordinal="5" offset="27" sl="35" sc="13" el="35" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="171" ordinal="6" offset="30" sl="36" sc="13" el="36" ec="32" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="172" ordinal="7" offset="31" sl="37" sc="13" el="37" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="173" ordinal="8" offset="32" sl="38" sc="17" el="38" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="174" ordinal="9" offset="44" sl="41" sc="13" el="41" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="175" ordinal="10" offset="45" sl="42" sc="17" el="42" ec="31" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="176" ordinal="11" offset="47" sl="43" sc="13" el="43" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="177" ordinal="12" offset="49" sl="44" sc="13" el="44" ec="30" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="178" ordinal="13" offset="59" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="165" ordinal="0" offset="0" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="78.57" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="14" visitedSequencePoints="11" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="78.57" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663377</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.UserController::GetUserById(System.Int32)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="179" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="180" ordinal="1" offset="1" sl="51" sc="13" el="51" ec="50" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="181" ordinal="2" offset="13" sl="52" sc="13" el="52" ec="54" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="182" ordinal="3" offset="19" sl="54" sc="13" el="54" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="183" ordinal="4" offset="20" sl="55" sc="17" el="55" ec="47" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="184" ordinal="5" offset="28" sl="56" sc="13" el="56" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="185" ordinal="6" offset="31" sl="57" sc="13" el="57" ec="33" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="186" ordinal="7" offset="32" sl="58" sc="13" el="58" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="187" ordinal="8" offset="33" sl="59" sc="17" el="59" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="188" ordinal="9" offset="45" sl="62" sc="13" el="62" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="189" ordinal="10" offset="46" sl="63" sc="17" el="63" ec="31" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="190" ordinal="11" offset="48" sl="64" sc="13" el="64" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="191" ordinal="12" offset="50" sl="65" sc="13" el="65" ec="29" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="192" ordinal="13" offset="60" sl="66" sc="9" el="66" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="179" ordinal="0" offset="0" sl="50" sc="9" el="50" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="76.92" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="13" visitedSequencePoints="10" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="76.92" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663378</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.UserController::AddUser(ProjectManager.Entities.User)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="193" ordinal="0" offset="0" sl="71" sc="9" el="71" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="194" ordinal="1" offset="1" sl="72" sc="13" el="72" ec="50" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="195" ordinal="2" offset="13" sl="75" sc="13" el="75" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="196" ordinal="3" offset="14" sl="76" sc="17" el="76" ec="38" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="197" ordinal="4" offset="22" sl="77" sc="13" el="77" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="198" ordinal="5" offset="25" sl="78" sc="13" el="78" ec="33" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="199" ordinal="6" offset="26" sl="79" sc="13" el="79" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="200" ordinal="7" offset="27" sl="80" sc="17" el="80" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="201" ordinal="8" offset="39" sl="83" sc="13" el="83" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="202" ordinal="9" offset="40" sl="84" sc="17" el="84" ec="31" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="203" ordinal="10" offset="42" sl="85" sc="13" el="85" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="204" ordinal="11" offset="44" sl="86" sc="13" el="86" ec="25" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="205" ordinal="12" offset="53" sl="87" sc="9" el="87" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="193" ordinal="0" offset="0" sl="71" sc="9" el="71" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="76.92" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="13" visitedSequencePoints="10" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="76.92" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663379</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.UserController::UpdateUser(ProjectManager.Entities.User)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="206" ordinal="0" offset="0" sl="92" sc="9" el="92" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="207" ordinal="1" offset="1" sl="93" sc="13" el="93" ec="50" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="208" ordinal="2" offset="13" sl="96" sc="13" el="96" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="209" ordinal="3" offset="14" sl="97" sc="17" el="97" ec="41" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="210" ordinal="4" offset="22" sl="98" sc="13" el="98" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="211" ordinal="5" offset="25" sl="99" sc="13" el="99" ec="33" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="212" ordinal="6" offset="26" sl="100" sc="13" el="100" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="213" ordinal="7" offset="27" sl="101" sc="17" el="101" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="214" ordinal="8" offset="39" sl="104" sc="13" el="104" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="215" ordinal="9" offset="40" sl="105" sc="17" el="105" ec="31" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="216" ordinal="10" offset="42" sl="106" sc="13" el="106" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="217" ordinal="11" offset="44" sl="107" sc="13" el="107" ec="25" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="218" ordinal="12" offset="53" sl="108" sc="9" el="108" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="206" ordinal="0" offset="0" sl="92" sc="9" el="92" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="76.92" branchCoverage="100" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="13" visitedSequencePoints="10" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="76.92" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663380</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult ProjectManager.API.Controllers.UserController::DeleteUser(System.Int32)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="219" ordinal="0" offset="0" sl="113" sc="9" el="113" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="220" ordinal="1" offset="1" sl="114" sc="13" el="114" ec="50" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="221" ordinal="2" offset="13" sl="117" sc="13" el="117" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="222" ordinal="3" offset="14" sl="118" sc="17" el="118" ec="39" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="223" ordinal="4" offset="22" sl="119" sc="13" el="119" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="224" ordinal="5" offset="25" sl="120" sc="13" el="120" ec="33" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="225" ordinal="6" offset="26" sl="121" sc="13" el="121" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="226" ordinal="7" offset="27" sl="122" sc="17" el="122" ec="48" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="227" ordinal="8" offset="39" sl="125" sc="13" el="125" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="228" ordinal="9" offset="40" sl="126" sc="17" el="126" ec="31" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="229" ordinal="10" offset="42" sl="127" sc="13" el="127" ec="14" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="230" ordinal="11" offset="44" sl="128" sc="13" el="128" ec="25" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="1" uspid="231" ordinal="12" offset="53" sl="129" sc="9" el="129" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="219" ordinal="0" offset="0" sl="113" sc="9" el="113" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module skippedDueTo="Filter" hash="F9-9B-B5-71-3A-BE-A4-D1-7B-42-24-6F-13-97-0A-EB-C4-29-42-FE">
+      <ModulePath>C:\Final\Middleware\ProjectManager\ProjectManager.API.Tests\bin\Debug\System.Web.Http.dll</ModulePath>
+      <ModuleTime>2018-05-10T17:09:16Z</ModuleTime>
+      <ModuleName>System.Web.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="47-6D-62-B8-35-D5-03-06-7D-C9-55-33-40-84-6A-5D-9E-47-10-4B">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:19.5760921Z</ModuleTime>
+      <ModuleName>Microsoft.CSharp</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B6-DB-53-98-99-52-20-0E-0C-55-B9-03-B2-33-0F-4D-CE-EF-EC-AE">
+      <ModulePath>C:\Final\Middleware\ProjectManager\ProjectManager.API.Tests\bin\Debug\ProjectManager.BL.dll</ModulePath>
+      <ModuleTime>2018-11-02T17:02:25.6175822Z</ModuleTime>
+      <ModuleName>ProjectManager.BL</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="34-FE-BD-DD-79-B4-81-0A-E7-B9-D5-E5-32-F9-A7-4F-97-95-47-A6">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Dynamic\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Dynamic.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:15.7008013Z</ModuleTime>
+      <ModuleName>System.Dynamic</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="19-6F-A5-C6-C2-4E-32-27-A2-D0-61-D8-30-02-1D-0F-63-C0-78-46">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2018-04-11T23:35:18.1697369Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="B7-D1-9C-31-96-02-8C-28-B4-09-85-A5-C0-9C-C7-AD-B7-B4-3D-74">
+      <ModulePath>C:\Final\Middleware\ProjectManager\ProjectManager.API.Tests\bin\Debug\System.Net.Http.Formatting.dll</ModulePath>
+      <ModuleTime>2018-05-10T17:08:56Z</ModuleTime>
+      <ModuleName>System.Net.Http.Formatting</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>
