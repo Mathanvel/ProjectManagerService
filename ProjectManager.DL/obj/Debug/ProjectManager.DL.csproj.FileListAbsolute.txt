@@ -1,0 +1,12 @@
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\bin\Debug\ProjectManager.DL.dll.config
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\bin\Debug\ProjectManager.DL.dll
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\bin\Debug\ProjectManager.DL.pdb
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\bin\Debug\EntityFramework.dll
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\bin\Debug\ProjectManager.Entities.dll
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\bin\Debug\ProjectManager.Entities.pdb
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\bin\Debug\EntityFramework.xml
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\obj\Debug\ProjectManager.DL.csprojResolveAssemblyReference.cache
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\obj\Debug\ProjectManager.DL.dll
+C:\Final\Middleware\ProjectManager\ProjectManager.DL\obj\Debug\ProjectManager.DL.pdb

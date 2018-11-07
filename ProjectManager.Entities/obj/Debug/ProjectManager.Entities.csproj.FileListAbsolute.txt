@@ -1,0 +1,5 @@
+C:\Final\Middleware\ProjectManager\ProjectManager.Entities\bin\Debug\ProjectManager.Entities.dll
+C:\Final\Middleware\ProjectManager\ProjectManager.Entities\bin\Debug\ProjectManager.Entities.pdb
+C:\Final\Middleware\ProjectManager\ProjectManager.Entities\obj\Debug\ProjectManager.Entities.csprojResolveAssemblyReference.cache
+C:\Final\Middleware\ProjectManager\ProjectManager.Entities\obj\Debug\ProjectManager.Entities.dll
+C:\Final\Middleware\ProjectManager\ProjectManager.Entities\obj\Debug\ProjectManager.Entities.pdb
